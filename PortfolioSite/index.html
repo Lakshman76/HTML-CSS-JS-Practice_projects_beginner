@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anmol Kumar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/85fa1afc3f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <nav>
+                <img src="./media/white_trasparent_BG_Logo.png" alt="Logo_Image" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#blog">Blogs</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+
+            <div class="header_text">
+                <p>Web Designer | Front-end Developer</p>
+                <h1> <span>Hi,</span> <br> My name is <span>Anmol Kumar</span> <br> from India</h1>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- About Section -->
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about_col_1">
+                    <img src="./media/Straight_chest_front_pc.png" alt="Profile_picture">
+                </div>
+                <div class="about_col_2">
+                    <h2 class="sub-title">About me</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nihil, illum ab deserunt harum ex excepturi. Cupiditate nesciunt voluptatem repellat quidem ullam quos, laboriosam deleniti temporibus iste, ut amet. Adipisci deleniti est ab at sint, quas dignissimos suscipit error optio et, alias aliquam ex ea illo dolore dolor corporis hic?</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Design</span><br>Designing very efficient and Optimised web pages using Sematic HTML</li>
+                            <li><span>Front-end Development</span><br>Building whole Web application's front end part.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Front-end Development using scratch HTML, CSS, and JavaScript</li>
+
+                            <li><span>2021 - 2023</span> <br> Wrote many Technical blogs</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - Current</span><br>persuing Bachelor's in Computer Application (BCA) from Ranchi University</li>
+                            <li><span>2019 - 2021</span><br>Passed Intermediate in Science with 1st Division</li>
+                            <li><span>2019</span><br>Passed Matriculation from GGSPS Ranchi</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+
+    <section id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum adipisci similique, aut sit ipsum quia ipsa labore totam error illo fugit corporis numquam. Veritatis modi reprehenderit molestias! Nulla, commodi sed!</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>Front-end Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum adipisci similique, aut sit ipsum quia ipsa labore totam error illo fugit corporis numquam. Veritatis modi reprehenderit molestias! Nulla, commodi sed!</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <h2>Repair client-side scripting</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum adipisci similique, aut sit ipsum quia ipsa labore totam error illo fugit corporis numquam. Veritatis modi reprehenderit molestias! Nulla, commodised!</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Portfolio of previous Work -->
+
+    <section id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="./media/Web_Design.jpg" alt="image">
+                    <div class="layer">
+                        <h3>Website's Layout</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro natus praesentium, asperiores totam esse commodi.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./media/Front-end_Developer.jpg" alt="image">
+                    <div class="layer">
+                        <h3>Developed a Web App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut sapiente quasi earum adipisci alias unde?</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./media/Repair_site.jpg" alt="image">
+                    <div class="layer">
+                        <h3>Fixed Bugs of Commercial sites</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel iure maiores iste repudiandae accusamus reiciendis?</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See more</a> 
+        </div>
+    </section>
+
+    <!-- Blogs Sections -->
+    <section id="blog">
+        <div class="container">
+            <h1 class="sub-title">My Blogs</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="./media/marcel-strauss-A05GxqGRwUY-unsplash.jpg" alt="image">
+                    <div class="layer">
+                        <h3>How to make website for beginner?</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro natus praesentium, asperiores totam esse commodi.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./media/marcel-strauss-A05GxqGRwUY-unsplash.jpg" alt="image">
+                    <div class="layer">
+                        <h3>What are frameworks</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut sapiente quasi earum adipisci alias unde?</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./media/marcel-strauss-A05GxqGRwUY-unsplash.jpg" alt="image">
+                    <div class="layer">
+                        <h3>Fix your first bug</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel iure maiores iste repudiandae accusamus reiciendis?</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See more</a> 
+        </div>
+    </section>
+
+    <!-- Contacts -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact us</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://twitter.com/Anmol_kr_twt"> <i class="fa-brands fa-twitter"></i> </a>
+                        <a href="https://twitter.com/Anmol_kr_twt"> <i class="fa-brands fa-twitter"></i> </a>
+                        <a href="https://twitter.com/Anmol_kr_twt"> <i class="fa-brands fa-twitter"></i> </a>
+                        <a href="https://twitter.com/Anmol_kr_twt"> <i class="fa-brands fa-twitter"></i> </a>
+                    </div>
+
+                    <a href="media/Death;_An_Inside_Story_A_Book_for_all_Those_who_Shall_die_Sadhguru.pdf" download class="btn btn2">Download Death</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter your name" required>
+                        <input type="email" name="Email" placeholder="Enter your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> Anmol_Kumar.  Made with Love <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </section>
+
+     
+    <!-- I thought to implement this <button>See more</button> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
