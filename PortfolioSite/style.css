@@ -36,7 +36,14 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 auto;
     flex-wrap: wrap;
+    position: fixed;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    border-radius: 10px;
+    top: 0;
+    margin-bottom: 32px;
+    background: #08080867;
 }
 
 .logo {
