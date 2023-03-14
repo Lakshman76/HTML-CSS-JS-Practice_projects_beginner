@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2f0055;
+    color: #fff;
+}
+
+.title {
+    margin-left: 80px;
+}
+
+.navOption {
+    display: flex;
+    gap: 30px;
+    margin-right: 80px;
+}
