@@ -4,20 +4,86 @@
     box-sizing: border-box;
 }
 
+:root {
+    --purple500: #281154;
+    --purple300: #270082;
+    --purple600: #1b0058;
+    --red600: #dc0000;
+    --body: #f9f6ff;
+}
+
+html, body {
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+/* header section */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #2f0055;
+    background-color: var(--purple300);
     color: #fff;
 }
 
 .title {
     margin-left: 80px;
+    font-size: large;
 }
 
 .navOption {
+    margin-top: 5px;
     display: flex;
     gap: 30px;
     margin-right: 80px;
+}
+
+
+/* hero section */
+
+.hero-section {
+    background-image: url(./media/Frame\ 1.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: grid;
+    color: white;
+    place-items: center;
+    text-align: center;
+    
+}
+
+.hero-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-section h1 {
+    font-size: 96px;
+}
+
+.hero-section h3 {
+    font-size: 32px;
+}
+
+/* music section */
+
+.musiccontainer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 40px;
+}
+
+.musiccontainer p {
+    text-align: center;
+    word-wrap:normal;
 }
