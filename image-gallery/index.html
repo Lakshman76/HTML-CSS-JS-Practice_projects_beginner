@@ -23,6 +23,13 @@
         function myFunction(smallImg){
             let fullImg = document.getElementById("imagebox");
             fullImg.src = smallImg.src;
+
+            smallImg.style.height = "60px"
+            smallImg.style.boxShadow="0 0 10px grey";
+            setTimeout(() => {
+                smallImg.style = "none";
+            }, 1500);
+            
         }
     </script>
 </body>
